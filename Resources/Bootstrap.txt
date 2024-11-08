@@ -1,0 +1,8 @@
+class: container | container-fluid
+
+col & col-1 to 12
+
+Recommend: col-lg for Desktop
+
+Bootstrap Website: https://getbootstrap.com/docs/5.0/components/navbar/
+

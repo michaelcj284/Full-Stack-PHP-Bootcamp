@@ -1,0 +1,52 @@
+header {
+  background-color: darkgreen;
+  width: 100%;
+}
+
+#navbar {
+  background-color: darkgreen;
+  width: 80%;
+  margin: auto;
+}
+
+#navbar a {
+  color: white;
+}
+
+#drop a {
+  color: black;
+}
+#signup {
+  background-color: rgb(26, 142, 26);
+  border-radius: 5px;
+  padding: 0 6px;
+}
+#sec1 {
+  background-color: darkgreen;
+}
+#payment {
+  font-size: 50px;
+  color: white;
+}
+.grow {
+  color: greenyellow;
+}
+.business {
+  border-bottom: 3px solid greenyellow;
+}
+.para1 {
+  color: white;
+}
+#requestdemo {
+  background-color: greenyellow;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+#scroll-icon {
+  width: 45px;
+}
+.count {
+  font-size: 25px;
+  font-weight: 500;
+}

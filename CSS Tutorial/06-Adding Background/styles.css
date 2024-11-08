@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  
+}
+
+header {
+  width: 100%;
+  padding: 32px;
+  box-sizing: border-box;
+  height: 220px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-image: url(https://img.freepik.com/free-photo/blue-wall-background_53876-88663.jpg?w=360&t=st=1701445870~exp=1701446470~hmac=c19032c8839bfb495cedb516adaedb0c0ee65cc930278acd78a1163793e2aa1d);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  text-align: center;
+}
+
+nav > span {
+  font-family: "Ralaway" sans-serif;
+  font-weight: 500;
+}

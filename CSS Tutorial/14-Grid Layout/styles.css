@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 48px;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto; /*equal width size and defines number of columns*/
+  grid-gap: 16px;
+  /* row-gap: 32px;
+  column-gap: 48px; */
+  justify-content: center;
+}
+.movie-poster {
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+.movie-poster:hover {
+  animation: zoom 1s forwards;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 2px 5px #ccc;
+  }
+
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  #grid-container {
+    grid-template-columns: auto auto auto auto;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  #grid-container {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  #grid-container {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #grid-container {
+    grid-template-columns: auto;
+  }
+}

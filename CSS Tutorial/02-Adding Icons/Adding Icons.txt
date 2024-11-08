@@ -1,0 +1,8 @@
+Adding Icons
+
+- Go to Google and search for Font Awesome. 
+- Singup and verify email
+- Click on Set up icons in a project with 1 line of code
+- Copy the JS Kit Embed Code and paste it in your head tag
+- Click on search and search for any icon eg: facebook,
+- Copy Code and paste where you want to place the icon

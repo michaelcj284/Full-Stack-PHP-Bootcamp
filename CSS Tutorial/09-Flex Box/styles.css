@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+#container {
+  width: 100vw;
+  /* height: 100vh; */
+  background-color: lightblue;
+  box-sizing: border-box;
+  padding: 32px;
+
+  display: flex;
+  /* flex-direction: column-reverse; */
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; /*Used to wrap item to the next line*/
+}
+
+.item {
+  background-color: lightcoral;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  padding: 32px;
+  font-size: 24px;
+  text-align: center;
+}

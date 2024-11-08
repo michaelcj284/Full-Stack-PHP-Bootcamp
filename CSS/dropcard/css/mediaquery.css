@@ -1,0 +1,130 @@
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1024px) {
+  #payment {
+    font-size: 60px;
+  }
+  #logo {
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  #logo {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #request-scrollCon {
+    width: 80%;
+  }
+
+  /* #LogSignUpCon {
+    width: 25%;
+    margin-left: 5%;
+  } */
+  #payment {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  #navLinkCon,
+  #LogSignUpCon {
+    display: none;
+  }
+
+  #sec1-inner {
+    flex-direction: column;
+  }
+  #sec1Box1,
+  #sec1Box2 {
+    width: 100%;
+  }
+  #payment {
+    text-align: center;
+  }
+  /* #para {
+    text-align: center;
+  } */
+  #request-scrollCon {
+    margin: 5% auto;
+  }
+  #para2 {
+    text-align: center;
+  }
+  #sec2-inner {
+    flex-direction: column;
+  }
+
+  #sec2-box1,
+  #sec2-box2,
+  #sec2-box3 {
+    width: 80%;
+    margin: 2% auto;
+    padding: 10%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 540px) {
+  /* #logo {
+    width: 30%;
+  } */
+}
+
+@media screen and (max-width: 414px) {
+  /* #payment {
+    font-size: 40px;
+  } */
+}
+
+@media screen and (max-width: 412px) {
+}
+
+@media screen and (max-width: 393px) {
+}
+
+@media screen and (max-width: 390px) {
+}
+
+@media screen and (max-width: 375px) {
+}
+
+@media screen and (max-width: 360px) {
+  #request-scrollCon {
+    flex-direction: column;
+  }
+  #requestDemo,
+  #scrollMore {
+    width: 100%;
+  }
+  #payment {
+    font-size: 40px;
+  }
+  #request-scrollCon {
+    width: 90%;
+  }
+  #logo {
+    width: 30%;
+  }
+  #para {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* #payment {
+    font-size: 35px;
+  }
+  #para {
+    font-size: 13px;
+  } */
+}
+
+@media screen and (max-width: 280px) {
+}

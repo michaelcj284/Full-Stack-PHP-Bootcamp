@@ -1,0 +1,13 @@
+PHP - Personal Home Page
+
+Install Xampp
+
+Create your PHP folder in Local Disk -> XAMPP Folder
+
+VS Code Extensions:
+1. PHP Intellisense
+2. Path Intellisense
+3. PHP Intelephense
+
+var_dump - use to output the data type of a variable
+

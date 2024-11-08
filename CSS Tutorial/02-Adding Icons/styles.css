@@ -1,0 +1,39 @@
+#btn-facebook {
+  background-color: darkblue;
+  color: white;
+  padding: 6px 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+#btn-google {
+  background-color: red;
+  color: white;
+  padding: 6px 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+#btn-github {
+  background-color: black;
+  color: white;
+  padding: 6px 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+.label {
+  padding-left: 8px;
+}
+
+#btn-google-img {
+  margin: 10px 0;
+  background-color: darkgreen;
+  color: white;
+  padding: 6px 8px;
+  border: none;
+  border-radius: 4px;
+}
+#googl-logo {
+  width: 15px;
+}

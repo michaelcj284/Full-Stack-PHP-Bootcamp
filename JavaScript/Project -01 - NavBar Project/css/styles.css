@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: chartreuse;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  width: 80%;
+  background-color: orangered;
+  display: flex;
+}
+
+#logo {
+  width: 7%;
+  padding: 15px;
+  background-color: brown;
+}
+
+.navCon {
+  width: 80%;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav1 {
+  background-color: blue;
+  width: 10%;
+  margin-right: 5px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 30px;
+}
+#icon {
+  background-color: royalblue;
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10%;
+}
+
+#dropdownBox {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+#exitIcon {
+  width: 30px;
+  height: 30px;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+  top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navcon-mobile {
+  background-color: chocolate;
+  width: 250px;
+
+  padding: 15px;
+}
+
+#navcon-mobile a {
+  text-decoration: none;
+}
+#navcon-mobile li {
+  background-color: chartreuse;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}

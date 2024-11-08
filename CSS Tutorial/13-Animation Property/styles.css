@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background-image: url(desktop-wallpaper-grass-and-sky-vector-widescre-nature-vector.jpg);
+  background-size: cover;
+}
+
+img {
+  width: 100px;
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  animation: fly 5s ease-in;
+}
+
+@keyframes fly {
+  0% {
+    transform: translate(-50%, 0);
+  }
+
+  100% {
+    transform: translate(-50%, -100vh);
+  }
+}
